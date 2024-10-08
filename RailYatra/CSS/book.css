@@ -1,0 +1,55 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e7fffd;
+    margin: 0;
+    padding: 0;
+}
+
+/* Ticket Form Styles */
+.ticket-box {
+    background-color: white;
+    width: 450px;
+    padding: 20px;
+    margin: 40px auto;
+    border-radius: 8px;
+
+}
+
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #000000;
+}
+
+input, select {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+}
+
+button.submit-btn {
+    padding: 12px;
+    background-color: #ff2828;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button.submit-btn:hover {
+    background-color: #ff9898;
+}

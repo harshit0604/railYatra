@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Home - Rail Website</title>
+    <link rel="stylesheet" href="../Admin/adminStyle.css">
+</head>
+<body>
+    <header>
+        <h1>Admin Operations</h1>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="register-train.html">Register a Train</a>
+            <a href="profile.html">Profile</a>
+            <button id="logoutBtn">Logout</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="aggregateTable">
+            <h2>Aggregate Table</h2>
+            <div>
+                <h3>Number of Tickets Booked per Class</h3>
+                <!-- Add a table for the number of tickets booked per class -->
+            </div>
+            <div>
+                <h3>Sales Done per Quarter</h3>
+                <!-- Add a table or chart for sales done per quarter -->
+            </div>
+        </section>
+
+        <section id="clientTable">
+            <h2>Client Table</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Mobile</th>
+                        <th>Tickets Booked</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Add dynamic rows for clients here -->
+                    <tr>
+                        <td>001</td>
+                        <td>John Doe</td>
+                        <td>1234567890</td>
+                        <td>5</td>
+                        <td><button class="deleteBtn">Delete</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>

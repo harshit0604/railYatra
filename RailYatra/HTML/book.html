@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Ticket - Rail Yatra</title>
+    <link rel="stylesheet" href="../CSS/book.css">
+    <script src="../JS/book.js" defer></script> <!-- JS for form population -->
+</head>
+<body>
+    <div class="ticket-box">
+        <h2>Book Your Train Ticket</h2>
+        <form id="ticketForm">
+            <label for="userId">User ID:</label>
+            <input type="text" id="userId" name="userId">
+
+            <label for="fullName">Name:</label>
+            <input type="text" id="fullName" name="fullName" required>
+
+            <label for="userAge">Age:</label>
+            <input type="number" id="userAge" name="userAge" required>
+
+            <label for="date">Date:</label>
+            <input type="date" id="datetime" name="Date" required>
+
+            <label for="phoneNumber">Mobile:</label>
+            <input type="text" id="phoneNumber" maxlength="10" required>
+
+            <label for="startStation">Boarding Station:</label>
+            <input type="text" id="startStation" name="startStation" required>
+
+            <label for="endStation">Destination Station:</label>
+            <input type="text" id="endStation" name="endStation" required>
+
+            <label for="ticketClass">Ticket Category:</label>
+            <select id="ticketClass" name="ticketClass">
+                <option value="First Class">First Class</option>
+                <option value="AC Tier 1">AC Tier 1</option>
+                <option value="AC Tier 2">AC Tier 2</option>
+                <option value="Tatkal">Tatkal</option>
+            </select>
+
+            <label for="trainOptions">Available Trains:</label>
+            <select id="trainOptions" name="trainOptions">
+                <option value="Train 101">Train 101</option>
+                <option value="Train 102">Train 102</option>
+                <option value="Train 103">Train 103</option>
+            </select>
+
+            <label for="ticketCount">Number of Tickets:</label>
+            <input type="number" id="ticketCount" name="ticketCount" required>
+
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+         
+        <h3>Go to Home Page!</h3>
+        <a href="../HTML/home.html"><button type="submit" class="submit-btn">Home</button></a>
+    </div>
+</body>
+</html>

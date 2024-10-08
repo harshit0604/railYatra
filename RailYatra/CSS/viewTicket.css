@@ -1,0 +1,63 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Ticket Section Styles */
+.ticket-section {
+    width: 85%;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Table Styles */
+.ticket-details {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.ticket-details th, .ticket-details td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+.ticket-details th {
+    background-color: #007bff;
+    color: white;
+}
+
+.ticket-details tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.ticket-details tr:hover {
+    background-color: #ddd;
+}
+
+/* Cancel Button */
+.cancel-btn {
+    background-color: #ff4d4d;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cancel-btn:hover {
+    background-color: #ff3333;
+}

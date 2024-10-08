@@ -1,0 +1,92 @@
+/* General Styling for Forms */
+.container {
+    background-color: white;
+    width: 300px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+    text-align: left;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+input:focus {
+    border-color: #66b2ff;
+    outline: none;
+}
+
+/* Button Styling */
+button.btn {
+    padding: 10px;
+    background-color: #0284C7;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button.btn:hover {
+    background-color: #026ba1;
+}
+
+/* Links inside forms */
+a {
+    text-decoration: none;
+    color: #0284C7;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    button.btn {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    button.btn {
+        font-size: 12px;
+    }
+}
